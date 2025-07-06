@@ -70,13 +70,13 @@ src/
 │   │   ├── guards/                      # Clases que deciden si un usuario puede acceder a una ruta.
 │   │   └── interceptors/                # Intercepta peticiones HTTP para añadir tokens, manejar errores, etc.
 │   ├── shared/                          # Componentes y utilidades de UI reutilizables en toda la app.
-│   │   ├── components/                  # Componentes "tontos" y de presentación (ej: un botón, un spinner).
+│   │   ├── components/                  # Componentes genéricos y de presentación (ej: un botón, un spinner).
 │   │   ├── pipes/                       # Pipes personalizados para transformar datos en las plantillas.
 │   │   └── directives/                  # Directivas personalizadas para manipular el DOM.
 │   ├── features/                        # Funcionalidades principales de la aplicación, divididas por dominio.
 │   │   ├── home/                        # Representa una funcionalidad específica, como la página de inicio.
 │   │   │   ├── pages/                   # Componentes "inteligentes" que se asocian a una ruta y manejan lógica.
-│   │   │   ├── components/              # Componentes "tontos" específicos para construir las páginas de este feature.
+│   │   │   ├── components/              # Componentes específicos para construir las páginas de este feature.
 │   │   │   ├── interfaces/              # Interfaces y tipos de datos que se usan SOLO en este feature.
 │   │   │   └── home.routes.ts           # Define las rutas hijas de esta funcionalidad (ej: /home/welcome).
 │   │   └── user/                        # Otra funcionalidad, como el perfil de usuario.
