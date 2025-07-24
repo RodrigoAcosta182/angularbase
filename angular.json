@@ -21,8 +21,7 @@
                 "glob": "**/*",
                 "input": "public"
               }
-            ],
-            "styles": [""]
+            ]
           },
           "configurations": {
             "production": {
@@ -73,8 +72,7 @@
                 "glob": "**/*",
                 "input": "public"
               }
-            ],
-            "styles": [""]
+            ]
           }
         }
       }
